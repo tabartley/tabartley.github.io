@@ -1,0 +1,83 @@
+html, body{
+  background: url(images/image.jpg) center top no-repeat;
+  height:100%;
+  padding:0;
+  margin:0;
+  font-family: 'Josefin Sans', sans-serif;
+  background-size: cover;
+  color: #282828;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  color: #282828;
+}
+
+.btn-danger{
+  background-color: orange;
+  text-align: center;
+}
+
+.btn-danger:hover{
+  background-color: black;
+}
+
+p.subscribe{
+ text-align: center;
+}
+
+.container-fluid {
+
+}
+
+
+.jumbotron{
+  position: absolute;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+  width: 100%;
+  /* height: 62%; */
+  height:62%;
+  padding: 3% 0 0 0;
+}
+
+
+.display-4{
+	/* text-shadow: 5px 5px 5px rgba(0,0,0,.5);*/
+	text-align: center;
+	color: #fff;
+  margin-top: 100px;
+  -webkit-text-stroke-width:1px;
+  -webkit-text-stroke-color:orange;
+
+}
+
+.lead{
+  text-align: center;
+  color: #fff;
+  /* -webkit-text-stroke-width:1px;
+  -webkit-text-stroke-color:orange; */
+}
+
+
+.fa-pinterest-square {
+    color: #fff;
+    text-align: center;
+    text-shadow: 1px 1px 1px #ccc;
+    font-size: 1.5em;
+    padding:5px;
+}
+
+
+.fa-instagram {
+    color: #fff;
+    text-align: center;
+    text-shadow: 1px 1px 1px #ccc;
+    font-size: 1.5em;
+    padding:5px;
+}
+
+p.social{
+  text-align: center;
+}
