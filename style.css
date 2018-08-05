@@ -1,4 +1,11 @@
 html, body{
+width:100%;
+height: 100%;
+}
+
+
+header.startup {
+
   background: url(images/image.jpg) center top no-repeat;
   height:100%;
   padding:0;
@@ -21,9 +28,10 @@ html, body{
 
 .btn-danger:hover{
   background-color: black;
+  cursor: pointer;
 }
 
-p.subscribe{
+.subscribe{
  text-align: center;
 }
 
@@ -80,4 +88,9 @@ p.subscribe{
 
 p.social{
   text-align: center;
+}
+
+.btn{
+  text-align: center;
+  vertical-align: middle;
 }
