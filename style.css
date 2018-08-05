@@ -5,8 +5,7 @@ height: 100%;
 
 
 header.startup {
-  display:flex;
-  background: url(images/image.jpg) center top no-repeat;
+    background: url(images/image.jpg) center top no-repeat;
   height:100%;
   padding:0;
   margin:0;
@@ -41,7 +40,7 @@ header.startup {
 
 
 .jumbotron{
-  position: absolute;
+    position: absolute;
   bottom: 0;
   background: rgba(0,0,0,0.5);
   width: 100%;
@@ -53,7 +52,7 @@ header.startup {
 
 .display-4{
 	/* text-shadow: 5px 5px 5px rgba(0,0,0,.5);*/
-	text-align: center;
+  	text-align: center;
 	color: #fff;
   margin-top: 100px;
   -webkit-text-stroke-width:1px;
